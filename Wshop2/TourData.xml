@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document    : TourData.xml
+    Author      : vincent
+    Description:
+        This XML document stores the details of customer of Global Tours and Travels
+-->
+<Data:DataSheet xmlns:Data="http://aptechworldwide.com" xmlns:Payment="http://www.aptech.ac.in">
+    <Data:Record>
+        <Data:Name>John Dykes</Data:Name>
+        <Data:Source>Cambridge</Data:Source>
+        <Data:Destination>Norwich</Data:Destination>
+        <Data:TravelDetails>
+            <Data:TravelMode>Train</Data:TravelMode>
+            <Data:ModeName>Central Train</Data:ModeName>
+            <Data:TravelType>One Way</Data:TravelType>
+            <Data:TravelClass>Business Class</Data:TravelClass>
+            <Data:PNR>222355656</Data:PNR>
+        </Data:TravelDetails>
+        <Data:NumberOfPerson>2</Data:NumberOfPerson>
+        <Data:DepartureDate>03-04-07</Data:DepartureDate>
+        <Data:ReturnDate>NA</Data:ReturnDate>
+        <Data:AmountDetails>
+            <Data:ModeOfPayment>Credit Card</Data:ModeOfPayment>
+            <Data:CardType>VISA</Data:CardType>
+            <Data:Amount> $18</Data:Amount>
+        </Data:AmountDetails>
+        <Data:Phone>
+            3442446
+        </Data:Phone>
+        <Data:Hotel>
+            <Data:Address>13 Park Street,Cambridge</Data:Address>
+            <Data:CheckIn>03-04-07</Data:CheckIn>
+            <Payment:AmountDetails>
+                <Payment:ModeOfPayment>Credit Card</Payment:ModeOfPayment>
+                <Payment:CardType> Master Card</Payment:CardType>
+                <Payment:Amount>$45</Payment:Amount>
+            </Payment:AmountDetails>
+            <Data:CheckOut>10-04-07</Data:CheckOut>
+        </Data:Hotel>
+    </Data:Record>
+</Data:DataSheet>

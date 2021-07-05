@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Document : BankData.xml
+Author : vincent
+Description:
+The XML document stores the transaction details of a customer in Global Bank.
+-->
+
+<Bank xmlns="http://www.aptechworldwide.com" xmlns:Transact="http://www.aptech.ac.in">
+    <Name>John Dykes</Name>
+    <Address>457, Kingston Road, New York</Address>
+    <Phone>4747777</Phone>
+    <AccountNumber Type="Savings">6578587779</AccountNumber>
+    <OpeningBalance>$35000</OpeningBalance>
+    <TransactionDetails>
+        <Transact:TransactionID Transact:Transaction="Deposit">457</Transact:TransactionID>
+        <Transact:Amount>$10000</Transact:Amount>
+        <Transact:Amount>$10000</Transact:Amount>
+    </TransactionDetails>
+    <ClosingBalance xmlns="http://www.aptech.edu.ac">$36000</ClosingBalance>
+</Bank>
